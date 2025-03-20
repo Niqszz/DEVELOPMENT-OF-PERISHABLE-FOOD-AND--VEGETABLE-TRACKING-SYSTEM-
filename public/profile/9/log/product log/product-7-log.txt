@@ -1,0 +1,1 @@
+Product Created - ID: 7, Name: tomato, Category: 2, Timestamp: 2024-11-10 15:37:35

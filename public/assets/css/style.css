@@ -1,0 +1,501 @@
+/* Sidebar Styles */
+#sidebar {
+    overflow-y: scroll;
+    height: 100vh;
+    background-color: #003300 !important; /* Dark green background */
+}
+
+.nav-link.active {
+    background-color: #1a4d1a;
+}
+
+.nav-link {
+    padding: 15px !important;
+    color: white;
+}
+
+.nav-link:hover {
+    background-color: #146314;
+    text-decoration: none;  
+}
+
+.profile-photo {
+    border: 2px solid white;
+    padding: 5px;
+    height: 100%;
+}
+
+main {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+/* Top Navbar */
+.navbar-brand {
+    font-weight: bold;
+}
+
+.logout-button{
+    padding: 15px   ;
+}
+
+
+
+.dashboard{
+    background-image: url("../img/background/Dashboard.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.profile-management{
+    background-image: url("../img/background/Product Management.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.environment-monitoring{
+    background-image: url("../img/background/Environment Monitoring.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.spoiledge-detector{
+    background-image: url("../img/background/Spoiledge Detector.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.product-management{
+    background-image: url("../img/background/Environment Monitoring.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.products-create{
+    background-image: url("../img/background/Environment Monitoring.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.products-edit{
+    background-image: url("../img/background/Environment Monitoring.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+
+.notification{
+    background-image: url("../img/background/Spoiledge Detector.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.report{
+    background-image: url("../img/background/Dashboard.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.register{
+    background-image: url("../img/background/Login & Register.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.login{
+    background-image: url("../img/background/Login & Register.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.date-display{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #EE5D5D;
+
+    align-items: center;
+    color: white;
+    box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.2), /* Left */
+    0px -5px 10px rgba(0, 0, 0, 0.2), /* Top */
+    0px 5px 10px rgba(0, 0, 0, 0.2);  /* Bottom */
+
+    .day{
+        padding-bottom: 0;
+        margin: 0;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .month{
+        font-size: 20px;
+        font-weight: lighter;
+    }
+}
+.hour-display{
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #666666;
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.2), /* Right */
+                0px -5px 10px rgba(0, 0, 0, 0.2), /* Top */
+                0px 5px 10px rgba(0, 0, 0, 0.2);  /* Bottom */
+
+    .hour{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .minute{
+        font-size: 50px;
+        font-weight: 400;
+    }
+}
+
+.status,.device-status,.device-environtment{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.device-environtment{
+    border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    .readind-box{
+
+        padding: 1.35rem;
+    }
+    .reading{
+        font-size: 3.5vw;
+    }
+}
+
+.status{
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    .reading{
+        font-size: 3vw;
+    }
+}
+
+.device-status{
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    p{
+        font-size: 1vw;
+    }
+    img{
+        width: 50%;
+        align-self: center;
+    }
+    .col{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.device-container{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+    .device-name{
+        display: flex;
+        justify-content: center;
+    }
+    .device-reading{
+        display: flex;
+        justify-content: space-evenly;
+        height: 120px;
+    }
+
+    .overview{
+        display: flex;
+        align-self: center;
+    }
+
+    p{
+        text-align: center;
+        margin: 0;
+    }
+
+    p.reading{
+        font-size: 4vw;
+    }
+
+    a{
+        display: flex;
+        border-top: solid 1px black;
+        justify-content: center;
+        p{
+            transform: translateY(-15%);
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .add-device-button{
+        border-radius: 10px;
+        border:dashed 1px grey;
+        padding: 71px;
+        margin: 10px;
+        width: 100%;
+        background-color: white;
+    }
+    .add-device-container{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+.card{
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.spoiledge-detector{
+    .add-detector-button{
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        background-color: white;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        border-style: none;
+    }
+
+    .disconnect-detector-button{
+        background-color: #EE5D5D;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        border-style: none;
+    }
+
+    select{
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        width: 224px;
+        text-align: center;
+        background-color: white;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        border-style: none;
+
+        option{
+            text-align: center;
+        }
+    }
+
+    .status-2{
+
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+
+        .product-status-box{
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            background-color: white;
+            border-radius: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 40px;
+            padding-right: 40px;
+
+            p{
+                width: 224px;
+                margin: 0;
+            }
+        }
+    }
+
+    .overview{
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        h3{
+            padding-left: 20px;
+        }
+        background-color: white;
+        border-radius: 10px;
+
+        .row{
+            .col{
+                padding-top:30px;
+                padding-bottom: 30px;
+                padding-left: 40px;
+                padding-left: 40px;
+            }
+        }
+        .result{
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+    }
+}
+
+
+.product-management-content{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px !important;
+}
+
+
+.register-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+
+    button.register-btn{
+        border-radius: 0.375rem;
+        border-style: none;
+        background-color: #EE5D5D;
+        color: white;
+    }
+}
+
+.register-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: #f66a6a;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-secondary {
+    border: 1px solid #ddd;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+}
+
+.login-card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    min-width: 400px;
+
+    button.register-btn{
+        border-radius: 0.375rem;
+        border-style: none;
+        background-color: #EE5D5D;
+        color: white;
+    }
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
